@@ -36,3 +36,33 @@ const myFunction = function(){
 }
 
 console.log(typeof outSideTemp);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "anjalNIraula"
+
+let myAnotherName = myName
+
+myAnotherName = "anjal"
+
+console.log(myAnotherName);
+
+let userOne = {
+    name : "Anjal Niraula",
+    email :  "user@gmail.com"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "anjal@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
